@@ -1,0 +1,46 @@
+<!-- შექმენით ფორმა, სადაცმომხმარებელი შეიტანს
+სახელს, გვარს, ემაილს, პაროლს, და იქნება რამდენიმე select, ერთი იქნება საჭმელების
+ჩამონათვალი, მეორეში სპორტის სხვადასხვა სახეების ჩამონათვალი, მესამეში იქნება
+მანქანების ჩამონათვალი, ბოლოს იქნება ერთი submit ღილაკი რომელიც ამ ყველა 
+ინფორმაციას გადააგზავნის ბაზაში, კოდი დაწერეთ სწორად, სტრუქტურის დაცვით, ატრიბუტების
+გამოყენებით(for, id, name, value) და ასევე დაამატეთ label ები -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="t1">Name:</label>
+        <input type="text" id="t1" value="Name" placeholder="Enter your name"
+        name="Name" ><br><br>
+        <label for="t2">Surname:</label>
+        <input type="text" id="t2" value="Surname" placeholder="Enter your surname"
+        name="Surname"><br><br>
+        <label for="e1">Email:</label>
+        <input type="email" id="e1" value="Email" placeholder="Enter your Email"
+        name="Email"><br><br>
+        <label for="p1">Password:</label>
+        <input type="password" id="p1" value="Password" placeholder="Enter your password"
+        name="Password"><br>
+    </form><br>
+
+        <label for="Food">Food</label>
+    <select id="Food">
+        <option value="Gomi">Gomi</option>
+        <option value="Mtsvadi">Mtsvadi</option>
+        <option value="Khinkali">Khinkali</option>
+    </select><br><br>
+
+    <label for="Car">Car</label>
+    <select id="Car">
+        <option value="Porsche">Porsche</option>
+        <option value="Audi">BMW</option>
+        <option value="Ferrari">Mercedes</option>
+    </select><br><br>
+    <form><input type="submit">  </form>
+</body>
+</html>
