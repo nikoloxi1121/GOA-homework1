@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif; 
+    margin: 10; 
+    padding: 0; 
+    background-color: #f4f4f4; 
+}
+
+#main-header {
+    background: #333;
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+.section-title {
+    color: #007BFF;
+    font-size: 24px;
+}
+
+.highlight {
+    background-color: #FFFF00; 
+    font-weight: bold; 
+}
+
+.content p {
+    line-height: 1.5; 
+    margin: 10px 0; 
+}
+
+.sub-content {
+    background-color: #e2e2e2; 
+    padding: 15px; 
+    border: 1px solid #ccc; 
+}
+
+.footer {
+    text-align: center; 
+    padding: 10px 0; 
+    background: #333;
+    color: #fff;
+}
+
+#footer-text {
+    font-size: 14px;
+}

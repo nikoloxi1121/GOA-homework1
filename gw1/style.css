@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin:15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.img {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    height: 350px;
+    width: 350px;
+    margin-right: 7px;
+    margin-left: 14px;
+}
+
+.products {
+    padding: 0px 0;
+    background-color: #ecf0f1;
+}
+
+.products h2 {
+    text-align: center;
+}
+
+.product-category {
+    margin-bottom: 0px;
+    padding: 40px 0;
+    background-color: #ecf0f1;
+    color: black;
+}
+
+.product-category h3 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.product-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.about, .contact {
+    padding: 40px 0;
+}
+
+#go-up {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #2c3e50;
+    background-color: #3498db
+}
+
+#footer-div1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#footer-cop {
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+}
+
+.div33 {
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.product-item2 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.contactus {
+    background-color: #2c3e50;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css2?Roboto&display=swap');
+.btn {
+cursor: pointer;
+border: solid rgb(255, 255, 255);
+font-family: "system-ui";
+font-size: 14px;
+color: rgb(255, 255, 255);
+padding: 10px ;
+transition: 1s;
+width: 125px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+border-radius: 16px 17px 17px;
+background: linear-gradient(108deg, rgb(0, 102, 204) 100%, rgb(197, 0, 204) 100%);
+font-weight: 600;
+--hover-borderc: #ffffff;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.btn:hover{
+color: rgb(255, 255, 255);
+width: 150px;
+background: rgb(0, 102, 204) none repeat scroll 0% 0% / auto padding-box border-box;
+border-color: rgb(255, 255, 255);
+border-width: 2px;
+border-style: solid;
+}
