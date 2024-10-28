@@ -1,0 +1,13 @@
+table { 
+    width: 50%;
+    border: 5px solid yellowgreen;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    border-bottom: 5px solid black;
+}
+
+th , td{ 
+    border: 2px solid rgb(30, 48, 30);
+}

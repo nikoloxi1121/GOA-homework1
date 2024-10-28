@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- შექმენით დივი რომლესაც თავდაპირევლად ექნება ზომები 100, 
+    100ზე ხოლო ფერი იქნება წითელი, როდესაც მომხმარებელი მაუუს
+    მიიტანს ამ დივთან მისი ზომა გაიზრდება 50-50px ით შეეცვლება
+    ბექგრაუნდ ფერი და როდესაც მომხარებელი მას დააჭერს ჩამოვიდეს
+    დაბლა 200px ით და თნ შეიცვალოს ფერი ეს ყველაფერი მოხდეს სმუზად  -->
+
+    <style>
+        .d1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transition: 0.5s;
+        }
+
+        .d1:hover {
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+        }
+
+        .d1:active {
+            margin-top: 200px;
+            background-color: blueviolet;
+        }
+    </style>
+
+    <div class="d1"></div>
+    <div class="d2"></div>
+    <div class="d3"></div>
+
+</body>
+</html>
